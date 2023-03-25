@@ -111,7 +111,7 @@ export default function Home() {
         <div className="leftimgServiceOfferedCont">
           <img
             src={illustrateimg}
-            alt="image illustration"
+            alt="illustration"
             className="illustrateimg"
           />
         </div>
