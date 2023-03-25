@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.TopMainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.TopMainContainerLeft {
+  flex: 6;
+  align-content: flex-start;
+}
+.TopMainContainerLeft h1 {
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1;
+}
+.TopMainContainerLeft p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+  padding-top: 10px;
+}
+.topMainContinerButton {
+  padding: 10px 25px;
+  background-color: rgb(194, 194, 194);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.TopMainContainerRight {
+  flex: 6;
+}
+.TopMainContainerRight img {
+  object-fit: cover;
+  width: 80%;
+  margin-left: 40px;
+}
+/* main service container  */
+.mainServiceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.mainServiceContainer h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.mainServiceContainer p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+  padding-top: 10px;
+  text-align: center;
+}
+/* service items container  */
+
+.mainServiceListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(247, 247, 247);
+  padding-bottom: 50px;
+}
+.serviceListItems {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.serviceListItems img {
+  widows: 10%;
+  object-fit: cover;
+}
+.serviceListItems h1 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+.serviceListItems p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+  padding-top: 10px;
+  text-align: left;
+}
+.buttonBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.viewAll{
+  padding: 15px 35px;
+  border: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 50px;
+}
+.learnMore {
+  border: 1px solid black;
+  padding: 10px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+.header {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 300;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.horizontal {
+  width: 20px;
+  height: 4px;
+  color: black;
+  background-color: black;
+  margin-top: 20px;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+.leftContainer {
+  border-radius: 15px;
+  background-color: white;
+  margin-right: 20px;
+  padding-bottom: 50px;
+}
+.leftContainer img {
+  object-fit: cover;
+  height: 40%;
+  border-radius: 15px 15px 0 0;
+}
+
+.leftContainer h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.leftContainer p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.rightContainerButton {
+  padding: 10px 25px;
+  margin-left: 20px;
+  cursor: pointer;
+  border: none;
+}
+.leftContainer span{
+  margin-left: 20px;
+  color: rgb(38, 38, 151);
+  text-transform: capitalize;
+  font-size: 14px;
+
+}
+
+.middleContainer {
+  border-radius: 15px;
+  background-color: white;
+  margin-right: 20px;
+  padding-bottom: 50px;
+}
+
+.middleContainer img {
+  object-fit: cover;
+  height: 40%;
+  border-radius: 15px 15px 0 0;
+}
+
+.middleContainer img {
+  object-fit: cover;
+  height: 40%;
+  border-radius: 15px 15px 0 0;
+}
+.middleContainer h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.middleContainer p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.middleContainer span{
+  margin-left: 20px;
+  color: rgb(38, 38, 151);
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.rightContainer {
+  border-radius: 15px;
+  background-color: white;
+  margin-right: 20px;
+  padding-bottom: 50px;
+}
+
+.rightContainer img {
+  object-fit: cover;
+  height: 40%;
+  border-radius: 15px 15px 0 0;
+}
+
+.rightContainer h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.rightContainer p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.rightContainer span{
+  margin-left: 20px;
+  color: rgb(38, 38, 151);
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+/* services offered styling  */
+.serviceOfferedContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.illustrateimg {
+  object-fit: cover;
+  width: 500px;
+}
+
+.rightServiceOfferedCont h1 {
+  line-height: 1.2;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.horizontalLine {
+  width: 40px;
+  height: 4px;
+  color: black;
+  background-color: black;
+  margin-top: 5px;
+}
+.rightServiceOfferedCont p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* customer review session  */
+
+.mainCustomerRiviewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  align-items: center;
+  background-color: rgb(75, 183, 255);
+  border-radius: 10px;
+  padding: 50px;
+}
+.bottomCustomerReviewSession{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.bottomCustomerReviewSession p{
+  line-height: 1.3;
+  font-size: 14px;
+
+}
+.topCustomerReviewSession{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.customerReviewLine{
+  width: 35px;
+  height: 5px;
+  color: white;
+  background-color: white;
+  margin-top: 5px;
+}
+.customerDetails{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customerDetailsItems{
+  padding-left: 10px
+}
+.customerDetailsItems h4{
+  font-family: 3px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.customerDetailsItems p{
+  line-height: 1;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.customerimg{
+  border-radius: 70px;
+  object-fit: cover;
+  width: 100px;
+  border: 3px solid white;
+}
