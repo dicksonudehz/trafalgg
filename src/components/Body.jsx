@@ -26,7 +26,7 @@ export default function Home() {
           <button className="topMainContinerButton">consult today</button>
         </div>
         <div className="TopMainContainerRight">
-          <img src={image5} alt="top main container hero image" />
+          <img src={image5} alt="top main container hero " />
         </div>
       </div>
       {/* main service container  */}
@@ -43,7 +43,7 @@ export default function Home() {
       </div>
       <div className="mainServiceListContainer">
         <div className="serviceListItems">
-          <img src={group1} alt="" className="serviceimg" />
+          <img src={group1} alt="description elemet" className="serviceimg" />
           <h1>search doctor</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur <br />
@@ -53,7 +53,7 @@ export default function Home() {
           </p>
         </div>
         <div className="serviceListItems">
-          <img src={group1} alt="" className="serviceimg" />
+          <img src={group1} alt="description elemet" className="serviceimg" />
           <h1>search doctor</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur <br />
@@ -63,7 +63,7 @@ export default function Home() {
           </p>
         </div>
         <div className="serviceListItems">
-          <img src={group1} alt="" className="serviceimg" />
+          <img src={group1} alt="description elemet" className="serviceimg" />
           <h1>search doctor</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur <br />
@@ -73,7 +73,7 @@ export default function Home() {
           </p>
         </div>
         <div className="serviceListItems">
-          <img src={group1} alt="" className="serviceimg" />
+          <img src={group1} alt="description elemet" className="serviceimg" />
           <h1>search doctor</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur <br />
@@ -83,7 +83,7 @@ export default function Home() {
           </p>
         </div>
         <div className="serviceListItems">
-          <img src={group1} alt="" className="serviceimg" />
+          <img src={group1} alt="description elemet" className="serviceimg" />
           <h1>search doctor</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur <br />
@@ -93,7 +93,7 @@ export default function Home() {
           </p>
         </div>
         <div className="serviceListItems">
-          <img src={group1} alt="" className="serviceimg" />
+          <img src={group1} alt="description elemet" className="serviceimg" />
           <h1>search doctor</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur <br />
@@ -149,7 +149,7 @@ export default function Home() {
         <div className="leftimgServiceOfferedCont">
           <img
             src={illustrateimgright}
-            alt="image illustration"
+            alt="illustration"
             className="illustrateimg"
           />
         </div>
@@ -165,7 +165,7 @@ export default function Home() {
           <div className="customerDetails">
             <img
               src={customerReviewImg}
-              alt="customerimg"
+              alt="description elemet"
               className="customerimg"
             />
             <div className="customerDetailsItems">
@@ -193,7 +193,7 @@ export default function Home() {
         </div>
         <div className="imageContainer">
           <div className="leftContainer">
-            <img src={image} alt="" />
+            <img src={image} alt="description elemet" />
             <h6>
               Diseae detection, check <br /> up in the laboratory
             </h6>
@@ -205,7 +205,7 @@ export default function Home() {
             <span>read more</span>
           </div>
           <div className="middleContainer">
-            <img src={image44} alt="" />
+            <img src={image44} alt="description elemet" />
             <h6>
               Diseae detection, check <br /> up in the laboratory
             </h6>
@@ -217,7 +217,7 @@ export default function Home() {
             <span>read more</span>
           </div>
           <div className="rightContainer">
-            <img src={image55} alt="" />
+            <img src={image55} alt="description elemet" />
             <h6>
               Diseae detection, check
               <br /> up in the laboratory
